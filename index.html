@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Concepts Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Concepts Demo</h1>
+
+        <form id="myForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <div class="error-message" id="nameError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <div class="error-message" id="emailError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password (at least 8 characters):</label>
+                <input type="password" id="password" name="password" required minlength="8">
+                <div class="error-message" id="passwordError"></div>
+            </div>
+
+            <button type="submit">Submit</button>
+            <div id="submissionMessage" class="success-message"></div>
+        </form>
+
+        <div class="interactive-area">
+            <h2>Interactive Element</h2>
+            <button id="changeTextBtn">Click Me</button>
+            <p id="dynamicText">This text will change.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
