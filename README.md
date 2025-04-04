@@ -12,7 +12,7 @@ To view and interact with this webpage:
 
 1.  **Clone the repository (if you haven't already):**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Alwende/Week_6_Web_Assignment
     ```
     (Replace `<repository_url>` with the URL of this project on GitHub)
 
